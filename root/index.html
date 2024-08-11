@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Content</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        .centered-gif {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        h3, h4 {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h3>Working on our page.</h3>
+        <div><img src="in-progress.gif" alt="Centered GIF" class="centered-gif"></div>
+        <h4>Contact us at <a href="mailto:team@dropdev.xyz">team@dropdev.xyz</a></h4>
+    </div>
+</body>
+</html>
